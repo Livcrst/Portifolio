@@ -1,0 +1,91 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: none;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+:root{
+    --background:#EDEAEA;
+    --background-color: #E5E5E5;
+    --purple-lighter: #938DF8;
+    --white-color: #FFFFFF;
+    --green-lighter: #49BFB3;
+    --gray-lighter: #828282;
+    --black-color: #000000;
+
+    font-size: 1rem;
+    font-family: 'Roboto', sans-serif;
+
+}
+
+header{
+    background: var(--purple-lighter);
+    display: flex;
+    align-items:center;
+    justify-content:center;
+
+
+}
+ /* Barra de navegação do site */
+header nav {
+    margin-left: auto;
+}
+
+header nav li{
+    display: inline-block;
+    margin: 1.8rem;
+
+}
+header nav a{
+    color: var(--white-color);
+}
+
+/* Seções do main */
+
+.first-section{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background: var(--background);
+    
+}
+.first-section img{
+    margin: 3rem;
+}
+
+.name {
+    color: var(--purple-lighter);
+    weight: 700;
+    font-size: 1.5rem
+    
+}
+.ocupacao{
+    color: var(--gray-lighter);
+    weight: 700;
+    font-size: 1.5rem
+}
+.description{
+    color: var(--black-color);
+    margin: 2rem 15rem;
+    text-align: justify;
+    line-height: 2rem;
+    
+
+}
+
+.second-section{
+    background-color: var(--white-color); 
+} 
+.title-formacao{
+    color: var(--green-lighter);
+    weight: 700;
+    font-size: 1.5rem;
+}
+.name-course{
+    color: var(--gray-lighter);
+    weight: bold;
+
+}
