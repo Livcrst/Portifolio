@@ -79,13 +79,48 @@ header nav a{
 .second-section{
     background-color: var(--white-color); 
 } 
-.title-formacao{
+.title-geral{
     color: var(--green-lighter);
     weight: 700;
     font-size: 1.5rem;
+    margin-right: 3rem;
 }
-.name-course{
+.name-geral{
     color: var(--gray-lighter);
-    weight: bold;
+    font-weight: bold;
+    margin: 1rem;
 
 }
+.data-geral{
+    margin-left: 13rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    align-items: left;
+    text-align: left;
+
+    
+}
+.data-geral ul li{
+    list-style: none;
+
+}
+.data-geral ul li p{
+    margin-bottom: 2rem;
+}
+.third-section{
+    background: var(--background)
+}
+footer {
+    background-color: #5A53D8;
+    height: 30vh;
+    display: flex;
+    align-items: center;
+}
+footer article ul li {
+    margin-right: 3rem;
+}
+footer #gmail{
+    width: 20px;
+}
+
