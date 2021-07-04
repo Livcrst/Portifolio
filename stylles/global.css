@@ -9,6 +9,7 @@
     --background:#EDEAEA;
     --background-color: #E5E5E5;
     --purple-lighter: #938DF8;
+    --purple-hover: #5c58ac;
     --white-color: #FFFFFF;
     --green-lighter: #49BFB3;
     --gray-lighter: #828282;
@@ -39,6 +40,13 @@ header nav li{
 }
 header nav a{
     color: var(--white-color);
+}
+nav a:hover{
+    color: var(--purple-hover);
+    font-weight: bold;
+    text-decoration: none;
+    
+    
 }
 
 /* Seções do main */
@@ -112,15 +120,14 @@ header nav a{
     background: var(--background)
 }
 footer {
-    background-color: #5A53D8;
+    background-color: var(--purple-lighter);
     height: 30vh;
     display: flex;
     align-items: center;
+    justify-content: center;
 }
-footer article ul li {
-    margin-right: 3rem;
+footer li{
+    list-style: none;
 }
-footer #gmail{
-    width: 20px;
-}
+
 
