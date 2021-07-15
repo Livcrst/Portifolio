@@ -125,6 +125,7 @@ footer {
     display: flex;
     align-items: center;
     justify-content: center;
+    cursor: pointer;
 }
 footer li{
     list-style: none;
